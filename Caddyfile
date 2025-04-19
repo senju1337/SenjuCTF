@@ -1,0 +1,5 @@
+http://senjuctf.lab {
+        log log0
+        root * /srv/senjuCTF
+        file_server
+}
