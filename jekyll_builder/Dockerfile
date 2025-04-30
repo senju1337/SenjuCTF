@@ -1,4 +1,3 @@
-syntax=docker/dockerfile:1
 FROM docker.io/ruby:3.4
 WORKDIR /app
 

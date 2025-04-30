@@ -7,7 +7,7 @@ services:
       - "4433:443"
       - "4433:443/udp"
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:z
+      # - ./Caddyfile:/etc/caddy/Caddyfile:z
       # - ./:/srv/senjuCTF:Z
       - caddy_data:/data:z
       - caddy_config:/config:z
