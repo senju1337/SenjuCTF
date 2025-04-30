@@ -1,0 +1,4 @@
+http://localhost {
+        root * /srv/senjuCTF
+        file_server
+}
