@@ -1,4 +1,5 @@
 http://localhost {
+        log log0
         root * /srv/senjuCTF
         file_server
 }

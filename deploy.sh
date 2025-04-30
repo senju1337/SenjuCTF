@@ -23,5 +23,6 @@ mv -fv $WEBROOT/_site/* $WEBROOT
 rmdir -v $WEBROOT/_site
 " \
 | ssh sshpass -p “superduperwebdev123!” $DEPLOY_TO /bin/bash
+
 echo removing local upload file
 rm -f $TMP_FILE
