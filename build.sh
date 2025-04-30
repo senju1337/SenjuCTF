@@ -9,7 +9,6 @@ cd ..
 
 rm -rf _site
 echo "
-bash tools/init.sh \
 JEKYLL_ENV=production bundle exec jekyll build --no-watch
 rm -vrf /app/_site/docker* /app/_site/entrypoint.sh
 " \
