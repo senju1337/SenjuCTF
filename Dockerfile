@@ -7,4 +7,5 @@ COPY ./_site .
 COPY entrypoint.sh /usr/bin/
 RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
-EXPOSE 4000
+EXPOSE 80
+EXPOSE 445
