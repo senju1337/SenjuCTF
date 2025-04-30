@@ -1,0 +1,17 @@
+services:
+  caddy:
+    image: senju_ctf:latest
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+      - "4433:443"
+      - "4433:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:z
+      # - ./:/srv/senjuCTF:Z
+      - caddy_data:/data:z
+      - caddy_config:/config:z
+
+volumes:
+  caddy_data:
+  caddy_config:
